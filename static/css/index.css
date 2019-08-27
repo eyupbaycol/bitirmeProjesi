@@ -1,0 +1,95 @@
+body {
+    background-image: url("background.png")
+}
+h4{
+    color: black;font-family: "SAPBook",Arial,Helvetica,sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase;
+}
+#imgId{
+    position: absolute;
+    left: 50%;
+    width: 450px;
+    height:200px;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+#imgcontainer{
+    position: absolute;
+    left: 50%;
+    width: 449px;
+    height:199px;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    border: solid 1px black;
+    background-color: white;
+}
+.button{
+    width: 250px;
+    height:40px;
+    border:0;
+    border-radius: 4px;
+    outline: 0;
+    color:white;
+    background-color:#1589FF;
+    font-family: "SAPBook",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.button:hover {
+    border : solid 1.5px #1589FF;
+    background-color:white;
+    color:#1589FF;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#createCaptcha {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+#createRandomCaptcha {
+    position: absolute;
+    top: 60%;
+    left: 42%;
+}   
+#upload {
+    position: absolute;
+    top: 60%;
+    left: 75%;
+}
+#fileUpload{
+    position: absolute;
+    top: 55%;
+    left: 75%;
+}
+#cca{
+    position: absolute;
+    top : 52%;
+    left: 10%;
+    width: 250px;
+    height:40px;
+    border : solid 1px black;
+    border-radius: 4px;
+    outline: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+label {
+    position: absolute;
+    font-family: "SAPBook",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    top :86%;
+    left:25%; 
+}
+#ccaresult{
+    position: absolute;
+    top : 84.5%;
+    left: 35%;
+    width: 450px;
+    height:40px;
+    border : solid 1px black;
+    border-radius: 4px;
+    outline: 0;
+    background-color: white;
+    font-family: "SAPBook",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+}
